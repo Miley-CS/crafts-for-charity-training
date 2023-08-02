@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Orientation Video Modules</title>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+                $("#header").load("/insertables/header.html"); 
+                $("#footer").load("/insertables/footer.html");
+            });
+        </script> 
+        <script defer src="JavaScript/jquery-1.10.2.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div class="content">
+            <h1>Welcome</h1>
+            <p>Welcome to Crafts for Charity! You are expected to watch all the videos within this module. You can navigate through pages using the tabs. The entire module should not take any longer one hour to complete and may be completed in one sitting or as many sittings as needed.</p>
+        </div>
+        <div class="btn-container">
+            <a href="/organization-overview.html">Next</a>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>

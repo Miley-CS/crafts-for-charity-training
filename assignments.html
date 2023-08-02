@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Orientation Video Modules</title>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+                $("#header").load("/insertables/header.html"); 
+                $("#footer").load("/insertables/footer.html");
+            });
+        </script> 
+        <script defer src="JavaScript/jquery-1.10.2.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div class="content">
+            <h1>Assignments</h1>
+            <p>In this video, we’ll talk about your first assignments as a volunteer!</p>
+        </div>
+        <div class="btn-container">
+            <a href="/policies-procedures.html">Back</a>
+            <a href="/tech-closing.html">Next</a>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>

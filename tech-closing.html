@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Orientation Video Modules</title>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+                $("#header").load("/insertables/header.html"); 
+                $("#footer").load("/insertables/footer.html");
+            });
+        </script> 
+        <script defer src="JavaScript/jquery-1.10.2.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div class="content">
+            <h1>Tech & Closing</h1>
+            <ul>
+                <p>We’ll close out the orientation by introducing you to the technology and programs we use in CFC!</p>
+            </ul>
+        </div>
+        <div class="btn-container">
+            <a href="/assignments.html">Back</a>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>
